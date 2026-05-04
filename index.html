@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>تحميل تطبيق Smart-School DZ</title>
+    <title>تحميل تطبيق Smart-School </title>
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; background-color: #f4f7f6; color: #1a305e; }
         .container { padding: 50px 20px; }
-        .logo { width: 120px; border-radius: 20px; }
-        h1 { color: #1a305e; font-size: 2.5rem; }
+        .logo { width: 120px; border-radius: 20px; margin-bottom: 20px; }
+        h1 { color: #1a305e; font-size: 2.5rem; margin-bottom: 10px; }
         .download-btn {
             display: inline-block;
             padding: 15px 40px;
@@ -24,20 +24,29 @@
         }
         .download-btn:hover { background-color: #2a4a8e; transform: translateY(-3px); }
         .info { margin-top: 30px; font-size: 0.9rem; color: #666; }
+        .footer-link { display: block; margin-top: 15px; color: #1a305e; text-decoration: none; font-size: 0.8rem; opacity: 0.7; }
     </style>
 </head>
 <body>
     <div class="container">
+        <!-- تأكد من وجود ملف icon.png في المجلد الرئيسي للموقع -->
         <img src="icon.png" alt="Smart-School Logo" class="logo">
         <h1>Smart-School DZ 🇩🇿</h1>
         <p>عش تجربة الـ E-BAC والـ E-BEM الحقيقية بالذكاء الاصطناعي</p>
         
-        <a href="https://github.com/nabil-bot-ai/smart-school-site/releases/download/v1.0.0/release.apk" class="download-btn">تحميل التطبيق (APK)</a>
+        <!-- رابط التحميل المباشر للملف من GitHub -->
+        <a href="https://github.com/nabil-bot-ai/smart-school-site/releases/download/v1.0.0/app-arm64-v8a-release.apk" class="download-btn">
+            تحميل التطبيق (APK)
+        </a>
         
         <div class="info">
-            <p>* نسخة الأندرويد 1.0.0 | حجم الملف: 25MB</p>
+            <p>* نسخة الأندرويد 1.0.0 | حجم الملف: 29MB</p>
             <p>بعد التحميل، قم بتفعيل "التثبيت من مصادر غير معروفة" في إعدادات هاتفك.</p>
         </div>
+
+        <a href="https://github.com/nabil-bot-ai/smart-school-site/commits/v1.0.0" class="footer-link" target="_blank">
+            عرض سجل التغييرات الكامل (Changelog)
+        </a>
     </div>
 </body>
 </html>
