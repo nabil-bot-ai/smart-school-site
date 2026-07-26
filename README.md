@@ -1,2 +1,2 @@
-# smart-school-site
+# noema-school-site
 الموقع الرسمي لتحميل تطبيق Smart-School DZ - أول منصة جزائرية للمحاكاة الرقمية (e-BAC / e-BEM) المدعومة بالذكاء الاصطناعي.
